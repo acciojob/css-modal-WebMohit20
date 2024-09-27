@@ -1,14 +1,14 @@
 //your JS code here. If required.
-let btn=document.getElementById("#openModal");
+let btn=document.getElementById("openModal");
 let modal = document.getElementById("myModal");
 let close = document.querySelector("span");
 btn.addEventListener("click",()=>{
-	modal.style.display = "block;"
+	modal.style.display = "block";
 })
 
 
 close.addEventListener("click",()=>{
-	modal.style.display = "none;"
+	modal.style.display = "none";
 })
 
 
